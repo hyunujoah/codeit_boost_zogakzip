@@ -1,0 +1,15 @@
+
+.react-datepicker__day--weekend:first-child {
+  color: #FF4B4B; /* 기본적으로 주말은 파란색 */
+}
+
+
+.react-datepicker__day--weekend:last-child {
+    color: #007BFF; /* 기본적으로 주말은 파란색 */
+}
+
+/* 이번 달이 아닌 날짜 흐리게 */
+.react-datepicker__day--outside-month {
+    color: #A9A9A9; /* 회색 */
+    opacity: 0.5;
+}
